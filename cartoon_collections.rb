@@ -39,4 +39,5 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
  return "Earth!" if planeteer_calls.any? ("Earth!") true
  return nil if planeteer_calls.any?("Earth!") false
+ retunr nil 
 end
