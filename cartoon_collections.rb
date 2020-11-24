@@ -44,5 +44,6 @@ while i< planeteer_calls.any? do
  end
  i += 0
 end
-return false
+return nil
+end
 end
