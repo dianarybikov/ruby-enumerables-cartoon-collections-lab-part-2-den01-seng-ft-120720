@@ -39,11 +39,10 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
  i = 0
 while i< planeteer_calls.any? do
-  planeteer_calls[1]
+  planeteer_calls[i]
  return true 
  end
  i += 0
 end
 return nil
-end
 end
